@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+
 		* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-} 
+  box-sizing: border-box; } 
 
 		video {
 			border: 2px solid white;
@@ -16,19 +17,22 @@
 
 		#btnna , #btnnp , #btnnma , #btnns, #btnnpr, #btnnh, #back {
 			border-radius: 20px;
-			border: 5px solid white;
+			border: 2px solid #C3E4ED;
 		    box-shadow: 0 0 10px white,
 		              0 0 40px #79CDCD,
 		              0 0 80px #C3E4ED;
-            font-family: verdana;
-            font-size: 30px;
-            color: blue !important;
+			font-family: 'Kodchasan', sans-serif;
+			font-size: 22px;
+			font-weight: bolder;
+			background-color: #C3E4ED;
+			letter-spacing: 6px;
+            color:  black !important;
             animation-iteration-count: infinite;
             animation-timing-function: ease;
             transition: 2s;
             animation-name: flick; 
-        	margin-bottom: 30px;
-        	margin-top: 30px;}
+        	margin-bottom: 50px;
+        	margin-top: 50px;}
 
 		body {
 			color: white !important;
